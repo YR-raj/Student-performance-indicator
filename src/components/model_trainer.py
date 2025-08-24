@@ -13,7 +13,7 @@ from sklearn.neighbors import KNeighborsRegressor
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import (RandomForestRegressor,
                               AdaBoostRegressor,
-                              GradientBoostingClassifier
+                              GradientBoostingRegressor,
                             )
 from catboost import CatBoostRegressor
 from xgboost import XGBRegressor
@@ -45,7 +45,7 @@ class ModelTrainer:
             models = {
                 "Random Forest": RandomForestRegressor(),
                 "Decision Tree": DecisionTreeRegressor(),
-                "Gradient Boosting": GradientBoostingClassifier(),
+                "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
                 "K-Neighbour Regressor" : KNeighborsRegressor(),
                 "XGBRegressor": XGBRegressor(),
