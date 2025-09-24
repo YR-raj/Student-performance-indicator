@@ -1,4 +1,4 @@
-# Student Performance in Exams – Model Training Report
+# Student Performance in Exams – Analysis Report
 
 ## 📊 Dataset
 - **Source:** [Kaggle – Students Performance in Exams](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?datasetId=74977)  
